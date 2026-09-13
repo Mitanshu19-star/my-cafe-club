@@ -1,0 +1,83 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+       <!-- Header / Navbar -->
+        <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="{% static 'js/script.js' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <header>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tea2 Night Sahiwal - The perfect place for tea, snacks, and relaxation in Sahiwal">
+    <title>mitanshu's cafe and club - Premium Café Experience</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-circle">
+                    <div class="tea-cup">
+                        <div class="cup-top"></div>
+                        <div class="cup-body"></div>
+                        <div class="cup-handle"></div>
+                        <div class="steam"></div>
+                        <div class="steam2"></div>
+                    </div>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main"> Mitanshu's cafe & club</span>
+                    <span class="logo-sub">style Royal</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about">About</a></li>
+                    <li><a href="menu">Menu</a></li>
+                    <li><a href="order">Order</a></li>
+                    <li><a href="contact">contact</a></li>
+                    <li><a href="profile">profile</a></li>
+                    <li><a href="login">Login</a></li> 
+                    <nav>
+  <a href="javascript:history.back()"> Back</a>
+</nav>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    </header>
+           
+  <body>
+    {% block contect %}
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <article class="about-content">
+                <div class="about-text">
+                <h1>Welcome to MITANSHU'S Café</h1>
+                    <p> where great coffee, delicious food, music, and good vibes come together.
+
+Our goal is to create a place where everyone can relax, meet friends, enjoy their favorite food and drinks, and make memorable moments. Whether you're looking for a peaceful coffee break, a place to hang out with friends, or an exciting evening, Mitanshu’s Café & Club is the perfect spot.
+
+We focus on quality, comfort, friendly service, and also we have a fasility of private cabin. An atmosphere that makes every visit special.
+
+Come for the Coffee. Stay for the Vibes. ☕✨</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Interior of Tea2 Night Café">
+                </div>
+            </article>
+        </div>
+    </section>
+  </body>
+</html>
+{% endblock %}
